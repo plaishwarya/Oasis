@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.Android.Pages.HomePage"
+             BackgroundColor="Black">
+    <ContentPage.Content >
+
+        <StackLayout Spacing="0" Orientation="Vertical">
+            <Button x:Name="btntest" Command="{Binding OnClickButton}" Text="Buy" TextColor="Black"  
+                    Font=" Calibri" FontAttributes="Bold" FontSize="Small" HeightRequest="50"  WidthRequest="150"
+                   BorderColor="Black"  HorizontalOptions="Center" BackgroundColor="#f88379"
+                    CornerRadius="2" BorderRadius="20"/>
+            <Button x:Name="btnSell" Command="{Binding OnClickButton}" Text="SELL" TextColor="Black"  
+                     Font=" Calibri" FontAttributes="Bold" FontSize="Small" HeightRequest="50"  WidthRequest="150"
+                   BorderColor="Black"  HorizontalOptions="Center" BackgroundColor="#f88379"
+                    CornerRadius="2" BorderRadius="20"/>
+            <Button x:Name="btnWishList" Command="{Binding OnClickButton}" Text="WISHLIST" TextColor="Black"  
+                     Font=" Calibri" FontAttributes="Bold" FontSize="Small" HeightRequest="50"  WidthRequest="150"
+                   BorderColor="Black"  HorizontalOptions="Center" BackgroundColor="#f88379"
+                    CornerRadius="2" BorderRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
